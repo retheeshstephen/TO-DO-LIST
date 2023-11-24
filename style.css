@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px;
+    margin: 20px; /* Add margin to the right of each button */
+     cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 10px; /* Set border-radius to 10px */
+ }
+
+button:hover {
+    background-color: #45a049;
+}
+
+.gap {
+    display: inline-block;
+    width: 10px; /* Set the width of the gap */
+ }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
